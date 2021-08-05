@@ -36,7 +36,7 @@
         <h3 class="text-center pb-5">Tredning Products</h3>
         @foreach($products as $item)
         <div class="trening-item">
-            <a href="detail/{{$item['id']}}" class="text-decoration-none">
+            <a href="detail/{{$item->id}}" class="text-decoration-none">
                 <img class="trending-image" src="{{$item->gallery}}">
                 <div class="">
                     <h3>{{$item->name}}</h3>
